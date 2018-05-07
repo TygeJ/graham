@@ -1,58 +1,12 @@
-/* body {
-  background-image: url("pexels-photo-355747.jpg");
-
-    background-color: black;
-}
-h1 {
-    color: blue;
-}
-p {
-    color: red;
+html {
+  background-color: black;
 }
 
-.button {
-    background-color: #4CAF50;
-    border: none;
-    color: white;
-    padding: 15px 32px;
-    text-align: center;
-    text-decoration: none;
-    display: inline-block;
-    font-size: 16px;
-    margin: 4px 2px;
-    cursor: pointer;
-} */
-
-body {
-    background-color: black;
+img {
+    max-width: 100%;
+    height: auto;
 }
 
-}
-h1 {
-    color: white;
-}
-h2 {
-  color: white;
-}
-p {
-    color: green;
-}
-
-.button {
-    background-color: #ffffff;
-    border: none;
-    color: black;
-    padding: 15px 32px;
-    text-align: center;
-    text-decoration: none;
-    display: flex;
-    font-size: 16px;
-    margin: 4px 2px;
-    cursor: pointer;
-  transition: 0.30s;
-}
-
-.responsive {
-  max-width: 100%;
-  height: auto;
+button {
+  color: white
 }
