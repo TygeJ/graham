@@ -1,4 +1,4 @@
-html {
+/* html {
   background-color: black;
   background-image: Graham-sky.jpg
 }
@@ -10,4 +10,50 @@ img {
 
 button {
   color: white
+} */
+
+*{
+  font-family: verdana;
+  margin: 0;
 }
+
+body{
+  background: #eee;
+}
+
+.wrapper{
+  width: 100%;
+  max-width: 960px;
+  margin: 0 auto;
+}
+
+.flex-container{
+display: flex;
+background: white;
+flex-wrap: wrap;
+}
+
+.box{
+  height: 100px;
+  flex: 1;
+}
+
+.one{
+  background: #2F2F2F;
+}
+
+.two{
+  background: #696a6b;
+}
+
+.three{
+  background: #ab5b16;
+}
+
+.four{
+  background: #ced0ce;
+}
+/*
+.five{
+  background: #e6e8e6;
+} */
