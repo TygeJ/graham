@@ -40,6 +40,7 @@ flex-wrap: wrap;
 
 .one{
   background: #2F2F2F;
+  color: white;
 }
 
 .two{
@@ -53,7 +54,7 @@ flex-wrap: wrap;
 .four{
   background: #ced0ce;
 }
-/*
+
 .five{
   background: #e6e8e6;
-} */
+}

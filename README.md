@@ -1,3 +1,1 @@
-# Website for graham
-
-# https://tsj7.github.io/graham/
+# A UI I am building for a photographer
