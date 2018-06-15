@@ -1,47 +1,16 @@
-<!--
+<!-- graham video https://www.youtube.com/watch?v=yj84Tle8BRY -->
 <!DOCTYPE html>
 <html>
 <head>
-  <link rel="stylesheet" href="styles.css">
-  <title>Graham</title>
-</head>
-  <body>
-
-
-  <div class=background-wrap>
-    <video id="video-bg-elem" preload="auto" autoplay="true" loop="loop" muted="muted">
-      <source src="https://www.youtube.com/watch?v=yj84Tle8BRY" type="video">
-    </video>
-  </div>
-
-  <div class="video-background">
-    <div class="video-foreground">
-      <iframe width="560" height="315" src="https://www.youtube.com/embed/yj84Tle8BRY" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen preload="auto" autoplay="true" loop="loop" muted="muted">
-      </iframe>
-    </div>
-  </div>
-
-  </body>
-</html> -->
-<!DOCTYPE html>
-<html>
-<head>
+<link rel="stylesheet" href="style.css">
 <meta charset="UTF-8">
-<title>Page With Youtube Video Background</title>
-<style>
-body{ margin:0px; background:#000; }
-#bg_container{ height:500px; overflow:hidden; }
-#bg{ width:100%; height:1000px; }
-#content{ position:absolute; top:0px; padding:30px; color:#FFF; text-shadow:#000 2px 2px; }
-</style>
+<title>Graham</title>
+
 </head>
 <body>
-<div id="bg_container">
-  <iframe id="bg"src="https://www.youtube.com/embed/2QPbriKs_sI?autoplay=1&amp;controls=1&amp;showinfo=0&amp;loop=1&amp;showinfo=0&amp;modestbranding=1&amp;disablekb=1&amp;enablejsapi=1&amp;mute=1?showinfo=0&iv_load_policy=3&controls=0" frameborder="0"></iframe>
+<div id="vid-container">
+  <iframe id="vid"src="https://www.youtube.com/embed/2QPbriKs_sI?autoplay=1&amp;controls=1&amp;showinfo=0&amp;loop=1&amp;showinfo=0&amp;modestbranding=1&amp;disablekb=1&amp;enablejsapi=1&amp;mute=1?showinfo=0&iv_load_policy=3&controls=0" frameborder="0"></iframe>
 </div>
-<div id="content">
-  <h1>Web page with HD looping video background</h1>
-  <h2>Using CSS the video is simply placed underneath our HTML content</h2>
-</div>
+
 </body>
 </html>
