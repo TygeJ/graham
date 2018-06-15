@@ -111,3 +111,41 @@ body{
   align-items: center;
   border: solid white;
 }
+
+
+.containerwater{
+  border:  solid white;
+  display: flex;
+  display: block;
+  height: 300px;
+  margin-top: 5%;
+  justify-content: space-around;
+}
+.waterpics{
+  display: flex;
+  justify-content: space-around;
+  margin: 50px 10px 10px 20px;
+}
+.water{
+  width: 40%;
+  height: 425px;
+  border: solid white;
+  margin: 20px 10px 10px 20px;
+}
+.water1{
+  width: 50%;
+  height: 350px;
+  margin-top:-30px;
+  margin-right: -30px;
+  border: white solid;
+}
+.watertext{
+  color: white;
+  border: solid black;
+  font-size: 40px;
+  margin-top: -85px;
+  /* margin-left: 200px; */
+  margin-left: 70%;
+  /* margin-bottom: 20px; */
+  position: absolute;
+}
