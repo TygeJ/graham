@@ -27,6 +27,14 @@ body{
   display: flex;
   height: 300px;
   margin-top: 20%;
+  align-items: flex-start;
+}
+.biketext{
+  color: white;
+  /* border: solid white; */
+  font-size: 40px;
+  margin-top: -52.5px;
+  margin-left: -3px;
 }
 .bikepics{
   /* background-color: white; */
