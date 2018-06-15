@@ -1,6 +1,9 @@
 body{
   /* margin:10px; */
   background:#000;
+  font-family: 'Share', cursive;
+
+
 }
 #vid-container{
   height:500px;
@@ -22,26 +25,27 @@ body{
 .text{
   color: white;
   font-size: 70px;
-  margin-top: -120px;
+  margin-top: -200px;
   margin-left: -5px;
 }
 .containerbike{
-  border:  solid white;
+  border:  solid black;
   height: 300px;
   margin-top: 20%;
   display: block;
 }
 .biketext{
   color: white;
-  /* border: solid white; */
+  border: solid black;
   font-size: 40px;
-  margin-top: -52.5px;
-  margin-left: 10px;
+  margin-top: -35px;
+  position: absolute;
+  /* margin-bottom: -50px; */
+  margin-left: 13.5%;
 }
 .bikepics{
   display: flex;
   justify-content: space-around;
-
   margin: 50px 10px 10px 20px;
 }
 .bike{
@@ -66,14 +70,44 @@ body{
 .auto1{
   width: 66%;
   height: 275px;
-  margin-top: -35px;
+  margin-top:-40px;
   border: white solid;
 }
 .autotext{
   color: white;
-  /* border: solid white; */
+  border: solid black;
   font-size: 40px;
-  margin-top: -52.5px;
+  margin-top: -85px;
   /* margin-left: 200px; */
-  margin-left: 25%
+  margin-left: 25%;
+  /* margin-bottom: 20px; */
+  position: absolute;
+}
+
+.containernature{
+  border:  solid black;
+  height: 300px;
+  margin-top: 5%;
+  display: flex;
+  display: block;
+  justify-content: space-around;
+}
+.naturetext{
+  color: white;
+  border: solid black;
+  font-size: 40px;
+  margin-top: -41.5px;
+  margin-left: 45%;
+  position: absolute;
+}
+.naturepics{
+  display: flex;
+  justify-content: space-around;
+  margin: 50px 10px 10px 20px;
+}
+.nature{
+  width: 23%;
+  height: 200px;
+  align-items: center;
+  border: solid white;
 }
