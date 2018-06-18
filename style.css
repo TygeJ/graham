@@ -203,7 +203,7 @@ body{
   border:  solid white;
   display: flex;
   display: block;
-  height: 750px;
+  height: 380px;
   margin-top: 20%;
   justify-content: space-around;
 }
@@ -214,40 +214,56 @@ body{
   /* margin: 50px 10px 10px 20px; */
 }
 .snow{
-  width: 35%;
-  height: 350px;
-  border: solid yellow;
-  margin: 25px 0px 0px 25px;
+  width: 30%;
+  height: 300px;
+  border: solid white;
+  /* margin: 25px 0px 0px 25px; */
+  margin: 45px 100px 0px 60px;
   /* position: absolute; */
 }
 
-.snow1{
+/* .snow1{
   width: 25%;
   height: 300px;
-  margin: 430px 0px 100px -135px;
-  border: blue solid;
+  /* margin: 430px 0px 100px -535px; */
+  /* margin: 400px -250px 10px 300px;
+  border: blue solid; */
   /* position: absolute; */
-}
+/* }  */
 .snow2{
-  width: 25%;
-  height: 250px;
-  margin: 75px 0px 100px -15px;
-  border: pink solid;
+  width: 33%;
+  height: 330px;
+  /* margin: 15px 0px 100px -1065px; */
+  margin: 21px -300px 5px -50px;
+  border: white solid;
   /* position: absolute; */
 }
 .snow3{
+  width: 20%;
+  height: 230px;
+  /* margin: 410px -0px 100px -700px; */
+  margin: 8px 0px 10px 360px;
+  border: white solid;
+}
+  /* position: absolute; */
+/* }
+.snow4{
+  width: 25%;
+  height: 190px;
+  margin: 125px 0px 10px 190px;
+  border: black solid;
+}.snow5{
   width: 40%;
   height: 300px;
   margin: 410px 0px -100px -275px;
-  border: green solid;
-  /* position: absolute; */
-}
+  border: white solid;
+} */
 
 .snowtext{
   color: white;
   border: solid black;
   font-size: 40px;
-  margin-top: -130px;
+  margin-top: -165px;
   /* margin-left: 200px; */
   margin-left: 70%;
   /* margin-bottom: 20px; */
