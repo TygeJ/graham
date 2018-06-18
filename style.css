@@ -1,17 +1,12 @@
 body{
-  /* margin:10px; */
   background:#000;
   font-family: 'Share', cursive;
-
-
 }
 #vid-container{
   height:500px;
   overflow:hidden;
   margin: -10px;
-  /* border: solid yellow */
 }
-
 #vid{
   width:100%;
   height:1000px;
@@ -40,7 +35,6 @@ body{
   font-size: 40px;
   margin-top: -35px;
   position: absolute;
-  /* margin-bottom: -50px; */
   margin-left: 13.5%;
 }
 .bikepics{
@@ -78,12 +72,9 @@ body{
   border: solid black;
   font-size: 40px;
   margin-top: -85px;
-  /* margin-left: 200px; */
   margin-left: 25%;
-  /* margin-bottom: 20px; */
   position: absolute;
 }
-
 .containernature{
   border:  solid black;
   height: 300px;
@@ -111,8 +102,6 @@ body{
   align-items: center;
   border: solid white;
 }
-
-
 .containerwater{
   border:  solid white;
   display: flex;
@@ -144,12 +133,9 @@ body{
   border: solid black;
   font-size: 40px;
   margin-top: -85px;
-  /* margin-left: 200px; */
   margin-left: 70%;
-  /* margin-bottom: 20px; */
   position: absolute;
 }
-
 .containersurf{
   border:  solid white;
   display: flex;
@@ -160,31 +146,24 @@ body{
 }
 .surfpics{
   display: flex;
-  /* display: block; */
-  /* justify-content: space-around; */
-  /* margin: 50px 10px 10px 20px; */
 }
 .surf{
   width: 25%;
   height: 250px;
   border: solid white;
   margin: 280px 1010px 10px 25px;
-  /* position: absolute; */
 }
-
 .surf1{
   width: 40%;
   height: 375px;
   margin: 100px -100px 0px 150px;
   border: white solid;
-  /* position: absolute; */
 }
 .surf2{
   width: 25%;
   height: 250px;
   margin: 20px -100px -100px -1000px;
   border: white solid;
-  /* position: absolute; */
 }
 
 .surftext{
@@ -192,13 +171,9 @@ body{
   border: solid black;
   font-size: 40px;
   margin-top: -130px;
-  /* margin-left: 200px; */
   margin-left: 70%;
-  /* margin-bottom: 20px; */
   position: absolute;
 }
-
-
 .containersnow{
   border:  solid white;
   display: flex;
@@ -209,63 +184,30 @@ body{
 }
 .snowpics{
   display: flex;
-  /* display: block; */
-  /* justify-content: space-around; */
-  /* margin: 50px 10px 10px 20px; */
 }
 .snow{
   width: 30%;
   height: 300px;
   border: solid white;
-  /* margin: 25px 0px 0px 25px; */
   margin: 45px 100px 0px 60px;
-  /* position: absolute; */
 }
-
-/* .snow1{
-  width: 25%;
-  height: 300px;
-  /* margin: 430px 0px 100px -535px; */
-  /* margin: 400px -250px 10px 300px;
-  border: blue solid; */
-  /* position: absolute; */
-/* }  */
 .snow2{
   width: 33%;
   height: 330px;
-  /* margin: 15px 0px 100px -1065px; */
   margin: 21px -300px 5px -50px;
   border: white solid;
-  /* position: absolute; */
 }
 .snow3{
   width: 20%;
   height: 230px;
-  /* margin: 410px -0px 100px -700px; */
   margin: 8px 0px 10px 360px;
   border: white solid;
 }
-  /* position: absolute; */
-/* }
-.snow4{
-  width: 25%;
-  height: 190px;
-  margin: 125px 0px 10px 190px;
-  border: black solid;
-}.snow5{
-  width: 40%;
-  height: 300px;
-  margin: 410px 0px -100px -275px;
-  border: white solid;
-} */
-
 .snowtext{
   color: white;
   border: solid black;
   font-size: 40px;
   margin-top: -165px;
-  /* margin-left: 200px; */
   margin-left: 70%;
-  /* margin-bottom: 20px; */
   position: absolute;
 }
