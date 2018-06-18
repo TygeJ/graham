@@ -149,3 +149,51 @@ body{
   /* margin-bottom: 20px; */
   position: absolute;
 }
+
+.containersurf{
+  border:  solid white;
+  display: flex;
+  display: block;
+  height: 550px;
+  margin-top: 20%;
+  justify-content: space-around;
+}
+.surfpics{
+  display: flex;
+  /* display: block; */
+  /* justify-content: space-around; */
+  /* margin: 50px 10px 10px 20px; */
+}
+.surf{
+  width: 25%;
+  height: 250px;
+  border: solid white;
+  margin: 280px 1010px 10px 25px;
+  /* position: absolute; */
+}
+
+.surf1{
+  width: 40%;
+  height: 375px;
+  margin: 100px -100px 0px 150px;
+  border: white solid;
+  /* position: absolute; */
+}
+.surf2{
+  width: 25%;
+  height: 250px;
+  margin: 20px -100px -100px -1000px;
+  border: white solid;
+  /* position: absolute; */
+}
+
+.surftext{
+  color: white;
+  border: solid black;
+  font-size: 40px;
+  margin-top: -130px;
+  /* margin-left: 200px; */
+  margin-left: 70%;
+  /* margin-bottom: 20px; */
+  position: absolute;
+}
