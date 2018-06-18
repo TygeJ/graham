@@ -197,3 +197,59 @@ body{
   /* margin-bottom: 20px; */
   position: absolute;
 }
+
+
+.containersnow{
+  border:  solid white;
+  display: flex;
+  display: block;
+  height: 750px;
+  margin-top: 20%;
+  justify-content: space-around;
+}
+.snowpics{
+  display: flex;
+  /* display: block; */
+  /* justify-content: space-around; */
+  /* margin: 50px 10px 10px 20px; */
+}
+.snow{
+  width: 35%;
+  height: 350px;
+  border: solid yellow;
+  margin: 25px 0px 0px 25px;
+  /* position: absolute; */
+}
+
+.snow1{
+  width: 25%;
+  height: 300px;
+  margin: 430px 0px 100px -135px;
+  border: blue solid;
+  /* position: absolute; */
+}
+.snow2{
+  width: 25%;
+  height: 250px;
+  margin: 75px 0px 100px -15px;
+  border: pink solid;
+  /* position: absolute; */
+}
+.snow3{
+  width: 40%;
+  height: 300px;
+  margin: 410px 0px -100px -275px;
+  border: green solid;
+  /* position: absolute; */
+}
+
+.snowtext{
+  color: white;
+  border: solid black;
+  font-size: 40px;
+  margin-top: -130px;
+  /* margin-left: 200px; */
+  margin-left: 70%;
+  /* margin-bottom: 20px; */
+  position: absolute;
+}
